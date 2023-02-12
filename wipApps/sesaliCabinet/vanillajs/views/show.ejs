@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>Herbs show page</h1>
+    The <%=herbs.name; %> is
+            <% if(herbs.isEdible===true){ %>
+                is edible
+                <% } else { %>
+                    is not edible
+                    <% } %>
+                        <nav>
+                            <a href="/herbs">Back to Herbs Index</a>
+                        </nav>
+</body>
+
+</html>
